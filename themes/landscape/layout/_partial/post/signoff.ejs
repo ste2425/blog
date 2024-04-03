@@ -1,0 +1,25 @@
+<div class="signoff">
+    <% if(config.avatar){ %>
+        <div class="signoff-avatar">     
+            <span>  
+                <img class="no-fancybox" src="<%= config.avatar %>" />
+            </span>
+        </div>
+    <% } %>
+    
+    <div class="signoff-content">
+        <p>
+            Hi, my names <strong><%= config.author %></strong>, I'm a software engineer specialising in web-based technologies.
+        </p>
+    
+        <p>
+            I'm probably not qualified to talk to you about what ever it is I've just talked to you about. 
+        </p>
+    
+        <% if(config.twitter) { %>
+            <p>        
+                Why not reach out on <a href="<%= config.twitter %>">Twitter</a> to see what I'm upto?
+            </p>
+        <% } %>
+    </div>
+</div>
