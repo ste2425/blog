@@ -23,7 +23,7 @@ A project using an `Arduino nano 33 IOT` to turn a PSP into a games console that
 
 https://github.com/ste2425/PSP-Consolizer
 
-{% fancybox /images/consolizer.jpg /images/consolizer-thumb.jpg "PSP Consolizer" %}
+{% fancybox /blog/images/consolizer.jpg /blog/images/consolizer-thumb.jpg "PSP Consolizer" %}
 
 ### PSP Consolizer Installer
 
@@ -31,7 +31,7 @@ An electron app to provide users of my PSP Consolizer a single click installer t
 
 https://github.com/ste2425/psp-consolizer-installer
 
-{% fancybox /images/aboutme/pspInstaller.png /images/aboutme/pspInstaller-thumb.png "PSP Consolizer Installer" %}
+{% fancybox /blog/images/aboutme/pspInstaller.png /blog/images/aboutme/pspInstaller-thumb.png "PSP Consolizer Installer" %}
 
 ### Dotnet Runner
 
@@ -39,7 +39,7 @@ An electron app to manage running multiple .NET core applications.
 
 https://github.com/ste2425/DotnetRunner
 
-{% fancybox /images/aboutme/dotnetrunner.png /images/aboutme/dotnetrunner-thumb.png "Dotnet Runner" %}
+{% fancybox /blog/images/aboutme/dotnetrunner.png /blog/images/aboutme/dotnetrunner-thumb.png "Dotnet Runner" %}
 
 ### Webservice Mocker
 

@@ -1,12 +1,12 @@
 ---
 title: Replacing PSP Super Capacitor With Cell Battery
 tags: psp
-image: /images/previewImage.jpg
+image: /blog/images/previewImage.jpg
 ---
 
 So recently I built a consolized PSP (I’ll go into that in another post) however one problem with my implementation is the date and time keeps resetting. Time to see if there's anything I can do to fit that.
 
-{% fancybox /images/consolizer.jpg /images/consolizer-thumb.jpg "PSP Consolizer" %}
+{% fancybox /blog/images/consolizer.jpg /blog/images/consolizer-thumb.jpg "PSP Consolizer" %}
 
 <!-- more -->
 
@@ -14,13 +14,13 @@ So recently I built a consolized PSP (I’ll go into that in another post) howev
 
 So the PSP's clock is maintained by its battery however there is also a supercapacitor that keeps time too. Whilst this looks suspiciously like a cell battery it's not. According to members of the PSP Homebrew Discord (cracking place by the way), [this is the capacitor](https://uk.farnell.com/panasonic/eecen0f204ak/cap-0-2f-3-3v-double-layer-smd/dp/1305070).
 
-{% fancybox /images/before.jpg /images/before-thumb.jpg "PSP Super Capacitor" %}
+{% fancybox /blog/images/before.jpg /blog/images/before-thumb.jpg "PSP Super Capacitor" %}
 
 The problem I have is rather unique though. My Consolized PSP runs without its battery. This means every time I disconnected the mains power (don't like leaving it on wasting power when not in use) the date and time are lost.
 
 I'm not sure how long the capacitor is intended to hold its charge. On mine, it resets after a few minutes. You could buy external chargers where you removed the PSP's battery and charged in them. Did Sony expect the capacitor to hold for hours whilst you charged the battery in an external charger?
 
-{% fancybox /images/batteryCharger.png "Official Sony External Battery Charger" %}
+{% fancybox /blog/images/batteryCharger.png "Official Sony External Battery Charger" %}
 
 # The Solution
 
@@ -30,7 +30,7 @@ Looking at the datasheet above the capacitor is rated at 3.3v. Trouble is that i
 
 Just so happened I was wandering around Aldi and spotted some 3v cell batteries on the last chance saloon aisle next to the tills. Figured, sod it that would be good enough.
 
-{% fancybox /images/supercapacitor.png "Super Capacitor" %}
+{% fancybox /blog/images/supercapacitor.png "Super Capacitor" %}
 
 Next i would need to stop the PSP from attempting to charge the battery, luckily I had some spare diodes from an old electronics starter kit.
 
@@ -53,7 +53,7 @@ You can buy cell batteries with tabs (like for GameBoy games) or little holders.
 
 Firstly I soldered up the battery. Using lots of flux and little contact time with the battery. Once done I wrapped it in some heat shrink.
 
-{% fancybox /images/cell.jpg /images/cell-thumb.jpg "Soldered battery" %}
+{% fancybox /blog/images/cell.jpg /blog/images/cell-thumb.jpg "Soldered battery" %}
 
 Next was soldering the diode.
 
@@ -63,7 +63,7 @@ Different diodes may be marked differently. Mine had a white band to indicate th
 
 This is a rather crude diagram of how I wired it up.
 
-{% fancybox /images/wiring.png "Wiring Diagram" %}
+{% fancybox /blog/images/wiring.png "Wiring Diagram" %}
 
 Lastly, I needed to remove the old capacitor and solder in my battery.
 
@@ -73,7 +73,7 @@ The small pointed tips on the average soldering iron may struggle to heat the ar
 
 Once removed soldering in the battery was quite easy.
 
-{% fancybox /images/after.jpg /images/after-thumb.jpg "Soldered battery" %}
+{% fancybox /blog/images/after.jpg /blog/images/after-thumb.jpg "Soldered battery" %}
 
 Just like that, job done.
 

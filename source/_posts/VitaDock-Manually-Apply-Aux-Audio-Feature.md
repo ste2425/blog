@@ -3,7 +3,7 @@ title: VitaDock+ Manually Apply Aux Audio Feature
 tags:
   - PSVita
   - VitaDock+
-image: /images/vitadockaux/thumb.png
+image: /blog/images/vitadockaux/thumb.png
 ---
 
 This little write up documents how to manually apply my feature change to the VitaDock+ project to enable the use of Aux Audio.
@@ -66,7 +66,7 @@ Before doing this work _don't_ connect the PSVita to the RPi.
 - when the tools GUI opens you should see the custom menu represented on the left
   - You may need to expand the `Options` item
 
-{% fancybox /images/vitadockaux/menulibre.png "Menu Libre Tool" %}
+{% fancybox /blog/images/vitadockaux/menulibre.png "Menu Libre Tool" %}
 
 - With the `Options` menu highlighted click the `+` button in the top left.
 - Now add the `Enable Aux` menu item. Set the settings as seen in the image below. Click the icon on the left to select the `auxAudio.png` image coppied earlier.
@@ -74,12 +74,12 @@ Before doing this work _don't_ connect the PSVita to the RPi.
   - Note the command begins with `./`
   - Once set click the `save` button in the top left.
 
-{% fancybox /images/vitadockaux/enableAux.png "Aux Menu item settings" %}
+{% fancybox /blog/images/vitadockaux/enableAux.png "Aux Menu item settings" %}
 
 - Now add the `Configure Aux` menu item following the same approach as above.
   - Note the command begins with `./`
 
-{% fancybox /images/vitadockaux/configureAux.png "Configure Aux Menu item settings" %}
+{% fancybox /blog/images/vitadockaux/configureAux.png "Configure Aux Menu item settings" %}
 
 - You can now close `Menu Libre`.
 - Insert the USB Audio capture device.
@@ -90,11 +90,11 @@ Before doing this work _don't_ connect the PSVita to the RPi.
 - Now select the USB Audio capture device, there will most likely only be one option to choose from.
   - The name you see will be different to mine
 
-{% fancybox /images/vitadockaux/inputSelect.png "Select USB Audio Capture Device" %}
+{% fancybox /blog/images/vitadockaux/inputSelect.png "Select USB Audio Capture Device" %}
 
 - Next select the audio output device, this is most likely the HDMI output which will be auto selected.
 
-{% fancybox /images/vitadockaux/outputSelect.png "Select the output audio device" %}
+{% fancybox /blog/images/vitadockaux/outputSelect.png "Select the output audio device" %}
 
 - Now the Aux audio is fully configured, however you can re-run the configuration tool by selecting its menu item you added earlier.
 - Connect the Vita to the RPi, don't forget to use a ground loop isolater to remove the hum.

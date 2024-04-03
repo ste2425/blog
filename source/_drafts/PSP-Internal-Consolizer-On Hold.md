@@ -3,7 +3,7 @@ title: PSP Internal Consolizer - On HOLD
 tags:
   - psp
   - psp-consolizer
-image: /images/PSPStock.png
+image: /blog/images/PSPStock.png
 ---
 
 It's been a while since I posted about my PSP Consolizer project. I was attempting to find a way of connecting both the original buttons and the Arduino to the PSP's motherboard at the same time.
@@ -30,13 +30,13 @@ The original plan was to build small adapter FPC's. These would sit in between t
 
 After numerous design iterations (lots of printing and cutting and making tiny changes) I've concluded I just can't make that work. There isn't enough space.
 
-{% fancybox "/images/fitting fpcs/adapter1.png" "First Buttons Design" %}
+{% fancybox "/blog/images/fitting fpcs/adapter1.png" "First Buttons Design" %}
 
-{% fancybox "/images/fitting fpcs/adapter4.jpg" "First Buttons Test Fit" %}
+{% fancybox "/blog/images/fitting fpcs/adapter4.jpg" "First Buttons Test Fit" %}
 
-{% fancybox "/images/fitting fpcs/adapter2.png" "First Analog Stick Design" %}
+{% fancybox "/blog/images/fitting fpcs/adapter2.png" "First Analog Stick Design" %}
 
-{% fancybox "/images/fitting fpcs/adapter3.jpg" "First Analog Stick Test Fit" %}
+{% fancybox "/blog/images/fitting fpcs/adapter3.jpg" "First Analog Stick Test Fit" %}
 
 # The Solution
 
@@ -46,15 +46,15 @@ They aren't complex and that would allow me to intercept the signals in any way 
 
 The left FPC is smaller and simpler so started with that.
 
-{% fancybox "/images/fitting fpcs/customfpc1.jpg" "First attempts at recreating the FPC shape" %}
+{% fancybox "/blog/images/fitting fpcs/customfpc1.jpg" "First attempts at recreating the FPC shape" %}
 
 Much like the adapters the process of re-creating the original involved lots of printing to paper, cutting out and offering up to the PSP.
 
 There must have been at least a dozen attempts before everything fitted nicely and the button footprints lined up.
 
-{% fancybox "/images/fitting fpcs/customfpc3.jpg" "Buttons seemed to line up" %}
+{% fancybox "/blog/images/fitting fpcs/customfpc3.jpg" "Buttons seemed to line up" %}
 
-{% fancybox "/images/fitting fpcs/customfpc2.jpg" "Even the shoulder button lined up" %}
+{% fancybox "/blog/images/fitting fpcs/customfpc2.jpg" "Even the shoulder button lined up" %}
 
 Once the board layout was right there was another problem.
 
@@ -64,7 +64,7 @@ Most controller buttons work with an exposed footprint on the PCB and a carbon p
 
 The PSP does this, but differently. The FPC is dual layer. The bottom layer has the footprint, the top layer the carbon pad. It's all self contained.
 
-{% fancybox "/images/fitting fpcs/originalfpc.jpg" "The original FPC. Image courtesy of Peter Lustig from the PSP Homebrew Discord" %}
+{% fancybox "/blog/images/fitting fpcs/originalfpc.jpg" "The original FPC. Image courtesy of Peter Lustig from the PSP Homebrew Discord" %}
 
 This probably makes it more robust, stops buttons failing to register when they get old. It also makes it very difficult to replicate. I'm not even sure it's possible for a DIYer.
 
@@ -72,9 +72,9 @@ So I had to find an alternative. I settled upon micro tactile switches like thos
 
 They can come in a wide range of sizes so I just needed to measure the height of the original button rubbers and find a switch as close to that as I could.
 
-{% fancybox "/images/fitting fpcs/finaldesign1.jpg" "Custom left button FPC out on paper" %}
+{% fancybox "/blog/images/fitting fpcs/finaldesign1.jpg" "Custom left button FPC out on paper" %}
 
-{% fancybox "/images/fitting fpcs/finaldesign2.png" "The final custom FPC design" %}
+{% fancybox "/blog/images/fitting fpcs/finaldesign2.png" "The final custom FPC design" %}
 
 # Final Stretch
 

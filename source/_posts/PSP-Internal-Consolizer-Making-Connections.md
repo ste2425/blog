@@ -3,7 +3,7 @@ title: PSP Internal Consolizer - Making Connections
 tags:
   - psp
   - psp-consolizer
-image: /images/consolizer - making connections/analog.png
+image: /blog/images/consolizer - making connections/analog.png
 ---
 
 Today I begin working on my internal PSP Consolizer.
@@ -26,9 +26,9 @@ Plug the male end into the motherboard, the PSP's buttons into one FFC connector
 
 I can even simplify it and omit any grounds going to the Arduino.
 
-{% fancybox "/images/consolizer - making connections/left-connector.png" "/images/consolizer - making connections/left-connector-thumb.png" "Left Connector" %}
+{% fancybox "/blog/images/consolizer - making connections/left-connector.png" "/blog/images/consolizer - making connections/left-connector-thumb.png" "Left Connector" %}
 
-{% fancybox "/images/consolizer - making connections/middle-connector.png" "/images/consolizer - making connections/middle-connector-thumb.png" "Center Connector" %}
+{% fancybox "/blog/images/consolizer - making connections/middle-connector.png" "/blog/images/consolizer - making connections/middle-connector-thumb.png" "Center Connector" %}
 
 I haven't test-fitted these yet.
 
@@ -50,7 +50,7 @@ This is because we either need to feed to the PSP a value from our digital poten
 
 On the Arduino's side I intend to use an Analog Multiplexer, which essentially acts like a switch for analog signals and will allow me to route either the digital potentiometer or the original stick to the PSP.
 
-{% fancybox "/images/consolizer - making connections/analog.png" "/images/consolizer - making connections/analog-thumb.png" "Analog Stick FPC" %}
+{% fancybox "/blog/images/consolizer - making connections/analog.png" "/blog/images/consolizer - making connections/analog-thumb.png" "Analog Stick FPC" %}
 
 # Why not do it in Software?
 

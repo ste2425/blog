@@ -29,7 +29,7 @@ The two main new developments are targeting the ESP32 and affordable FPC manufac
 
 My consolizer previously targeted the Arduino nano 33 IOT. I have used Arduino's in the past and not having much embedded programming experience chose to stick with what I new. Trouble was the Nano was expensive and limited compared to the ESP. So, after a few people asking I decided to make the switch. So far i have the PSP-Consolizer code compiled and running on the ESP, however I am yet to test it.
 
-{% fancybox /images/continuing-psp-consolizer/esp.jpg  "ESP32 running initial tests" %}
+{% fancybox /blog/images/continuing-psp-consolizer/esp.jpg  "ESP32 running initial tests" %}
 
 But lower cost is only one benefit, the ESP allows for things such as Over The Air (OTA) updates, flash storage (saving user made button configurations) and the ability to connect wirelessly with the ESP. We could build, like the BlueRetro project, some web app which can allow you to configure the ESP and build custom button mapping etc.
 
