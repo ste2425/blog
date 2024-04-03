@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  particlesJS.load("banner", "/particles.json");
+  particlesJS.load("banner", "/blog/particles.json");
 });
 
 // MANUALLY COPY THE PARTICLES.JS SOURCE CODE FROM NODE_MODULE TO HERE
