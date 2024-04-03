@@ -15,7 +15,7 @@ twitter: https://twitter.com/_s_cooper
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ste2425.github.io
+url: https://ste2425.github.io/blog
 permalink: :day/:month/:year/:title/
 permalink_defaults:
 pretty_urls:
