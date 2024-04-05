@@ -4,6 +4,7 @@ tags:
   - psp
   - psp-consolizer
 image: /blog/images/consolizer - making connections/analog.png
+date: 2022-12-22
 ---
 
 Today I begin working on my internal PSP Consolizer.

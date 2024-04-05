@@ -3,6 +3,7 @@ title: 3DS - Not powering on
 tags:
   - 3DS
 image: /blog/images/ds3-nopower/ribbons.JPG
+date: 2023-01-25
 ---
 
 Been waiting on a few PCB's to arrive for my PSP Consolizer project so thought I'd waste the time fixing the pile of broken consoles I've got.

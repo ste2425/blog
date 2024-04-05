@@ -4,6 +4,7 @@ tags:
   - PSVita
   - VitaDock+
 image: /blog/images/vitadockaux/thumb.png
+date: 2023-05-12
 ---
 
 This little write up documents how to manually apply my feature change to the VitaDock+ project to enable the use of Aux Audio.

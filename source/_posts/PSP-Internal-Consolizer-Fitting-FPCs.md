@@ -4,6 +4,7 @@ tags:
   - psp
   - psp-consolizer
 image: /blog/images/fitting fpcs/finaldesign2.png
+date: 2023-01-10
 ---
 
 I left my last post with a plan, to print and test fit some FPC's.

@@ -3,6 +3,7 @@ title: Continuing the PSP Consolizer Project
 tags:
   - psp
   - psp-consolizer
+date: 2023-06-02
 ---
 
 I’ve spent a few months working on other projects but now it's time to return to my PSP-Consolizer project with some cool new ideas.
