@@ -8,6 +8,8 @@ date: 2024-04-16
 
 A while ago i was planning a project (which i intend to come back to) to make my own power folding mirrors control module. It was going to be Arduino based and integrate with the vehicle via CanBus. Infact i made a proof of concept which can be seen on my GitHub [here](https://github.com/ste2425/powerfoldMirrors).
 
+<!-- more -->
+
 Before i could actually make that proof i needed to know what CAN messages meant what. So i embarked on a little project to write an Electron app accompanied by an Arduino app to help me viaualise the messages and figure what meant what.
 
 At the time i hadn't used Electron for quite a while. the last project was a little utility to help me manage running multiple dotnet core apps [also on my Github](https://github.com/ste2425/DotnetRunner). It was even oilder so figured this would be a good learning opportunity to see how Electron has changed in that time.
